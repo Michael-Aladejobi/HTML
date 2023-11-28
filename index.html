@@ -3,37 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
-    <style>
-        button{
-            size: 10px;
-        }
-    </style>
+    <title>Registration</title>
 </head>
 <body>
-    <form >
-        <label for="user" >Username:
-            <input name="user" type="text" id="user">
-        </label>
-    
-        <label for="pass">Password: 
-            <input type="password" name="pass" id="pass">
-        </label>
+    <h1>Register</h1>
+    <form>
+        <label>First Name: <input type="text" placeholder="John" required></label>
+        <label>Last Name: <input type="text" placeholder="Smith" required></label>
         <br>
-        <label >Days
-            <select name="" id="">
-                <option value="">Mon</option>
-                <option value="">Tue</option> 
-                <option value="">wed</option>
-                <option value="">thurs</option>
-                <option value="">friday</option>     
+        <label>Male <input type="radio" name="sex" value="M"></label>
+        <label>Female <input type="radio" name="sex" value="F"></label>
+        <label>Other <input type="radio" name="sex" value="null"></label>
+        <br>
+        <label>Email: <input type="email" placeholder="your email"></label>
+        <label>Password: <input type="password" name="pin" required min="5" max="10"></label>
+        <br>
+        <label>Birthday
+            <select name="month">
+                <option>JAN</option>
+                <option>FEB</option>
+                <option>MAR</option>
+                <option>APR</option>
             </select>
-        </label>
-        <button>Login</button>
-        <button>Sign Up</button>
 
-        
+            <select name="day">
+                <option>MON</option>
+                <option>TUE</option>
+                <option>WED</option>
+                <option>THURS</option>
+            </select>
+
+            <select name="year">
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+            </select>
+            
+        </label>
+
+        <label>I agree with the terms ans condition <input type="checkbox" required></label>
+        <br>
+        <button>Submit</button>
     </form>
-   <a href="#">Forget Password</a>
 </body>
 </html>

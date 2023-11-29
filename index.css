@@ -1,3 +1,6 @@
 body{
-    background: pink;
+    background: url();
+}
+label{
+    border: .6px solid red;
 }

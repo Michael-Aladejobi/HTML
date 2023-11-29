@@ -1,0 +1,15 @@
+body{
+    background: pink;
+}
+
+li{
+    border: 2px solid orange;
+}
+
+#special{
+    background: red;
+}
+
+.general{
+    text-decoration:line-through
+}

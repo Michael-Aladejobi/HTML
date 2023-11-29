@@ -42,7 +42,7 @@ input[type="password"]{
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
-#id{
+#special{
     border: 2px solid rgb(0, 0, 255);
 }
 
@@ -95,7 +95,11 @@ label{
     font-size: 100px;
 }
 /*Make the <h1> element's color change to blue when hovered over */
-
+h1:hover{
+    color:blue;
+}
 
 /*Make the <a> element's that have been visited gray */
-
+a:visited{
+    color:grey;
+}

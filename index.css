@@ -1,6 +1,8 @@
 body{
-    background: url();
+    background: url(/images/mayorgt\ -\ idara.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 label{
-    border: .6px solid red;
+    border: .6px solid rgb(228, 145, 145);
 }
